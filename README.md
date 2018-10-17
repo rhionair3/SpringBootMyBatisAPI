@@ -2,7 +2,6 @@
 ## Spring-Boot Maven MyBatis Mysql RestAPI 
 
 >> ## Required
-### ----------------------------------------------
 
 1. Maven 3.5 +
 2. Mysql
@@ -11,7 +10,6 @@
 5. Editor (Current Use Visual Studio Code)
 
 >> ## How To
-### ----------------------------------------------
 
 1. Clone This Repository To Your Local
 2. Chnage The Database (MySQL) Connection In File :  src/main/application.properties
