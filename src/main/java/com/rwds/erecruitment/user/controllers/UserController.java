@@ -77,7 +77,7 @@ public class UserController {
             return Response.status(Response.Status.OK).entity(listUsers).build();
         } catch (Exception ex) {
 
-            response.put("user", "Not Found");
+            response.put("users", "Not Found");
             return Response.status(Response.Status.BAD_REQUEST).entity(response).build();
         }
     }
@@ -136,14 +136,14 @@ public class UserController {
             User user = userMapper.findById(userId);
 
             if (user == null) {
-                response.put("User", Collections.emptyMap());
+                response.put("user", Collections.emptyMap());
             } else {
                 response.put("user", user);
             }
             return Response.status(Response.Status.OK).entity(user).build();
         } catch (Exception ex) {
 
-            response.put("user", "Not Found");
+            response.put("users", "Not Found");
             return Response.status(Response.Status.BAD_REQUEST).entity(response).build();
         }
     }

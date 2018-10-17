@@ -38,11 +38,11 @@ public class User {
     private int usia;
 
     public String getSurel() {
-        return null;
+        return surel;
     }
 
     public Integer getId() {
-        return null;
+        return id;
     }
 
 }
